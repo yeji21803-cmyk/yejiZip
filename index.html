@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>안녕하세요 👋</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 48px 40px;
+      max-width: 520px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+    }
+    .avatar { font-size: 64px; margin-bottom: 16px; }
+    h1 { font-size: 2rem; color: #333; margin-bottom: 8px; }
+    .subtitle { color: #764ba2; font-size: 1.1rem; font-weight: 600; margin-bottom: 20px; }
+    p { color: #666; line-height: 1.7; font-size: 0.95rem; margin-bottom: 28px; }
+    .btn {
+      display: inline-block;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+      padding: 12px 32px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: opacity 0.2s;
+    }
+    .btn:hover { opacity: 0.85; }
+    @media (max-width: 480px) {
+      .card { padding: 36px 24px; }
+      h1 { font-size: 1.6rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="avatar">🚀</div>
+    <h1>안녕하세요!</h1>
+    <div class="subtitle">프론트엔드 개발자 예지입니다</div>
+    <p>React와 MUI를 활용한 현대적인 웹 애플리케이션을 개발합니다.<br>
+      사용자 경험과 코드 품질을 최우선으로 생각합니다.</p>
+    <a href="https://github.com/yeji21803-cmyk" class="btn">GitHub 방문하기</a>
+  </div>
+</body>
+</html>
